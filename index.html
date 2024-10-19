@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="./assets/Css/style.css">
 </head>
 <body>
-        <div class="converter container">
+        <div class="converter ">
             <h1 class="title">Length Converter</h1>
-            <div class="input-field">
-                <input type="number" placeholder="input" id="input-box">
+            <div class="input-field d-flex" >
+                <input type="number" class="form-control"  id="input-box" placeholder="input"  aria-describedby="basic-addon1">
                 <span>=</span>
-                <input type="number" placeholder="result" id="result-box">
+                <input type="number" class="form-control"  id="result-box" placeholder="result"  aria-describedby="basic-addon1">
             </div>
             <div class="unit">
-                <select name="" id="input-category">
+                <select name="" class="form-select" id="input-category">
                     <option value="centimeter">centimeter</option>
                     <option value="meter">meter</option>
                     <option value="Kilometer">Kilometer</option>
                 </select>
-                <select name="" id="result-category">
+                <select name="" class="form-select" id="result-category">
                     <option value="millimeter">millimeter</option>
                     <option value="centimeter">centimeter</option>
                     <option value="inch">inch</option>
@@ -32,7 +32,7 @@
                     <option value="mile">mile</option>
                 </select>
             </div>
-            <button>Clear</button>
+            <button class="btn">Clear</button>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./assets/JavaScript/script.js"></script>
