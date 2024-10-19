@@ -14,7 +14,7 @@ html{
     padding: 25px 60px;
     margin: auto ;
     margin-top: 10%;
-    width :min-content;
+    width :fit-content;
     background-color: rgba(28, 136, 238, 0.534);
     border: 2px solid rgb(112, 112, 112);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.377);
